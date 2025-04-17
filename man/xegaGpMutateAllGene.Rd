@@ -18,7 +18,7 @@ Derivation tree.
 \code{xegaGpMutateAllGene()} 
               replaces a randomly selected subtree by
               a random derivation tree with the same root symbol 
-              with small probability.
+              with a small probability.
               All non-terminal nodes are considered as insertion points.
               Depth-bounds are respected.
 }
@@ -26,7 +26,7 @@ Derivation tree.
 Mutation is controlled by one local parameter: 
           \enumerate{
            \item \code{lF$MaxMutDepth()} controls the maximal depth of 
-                 of the new random generation tree.
+                 the new random generation tree.
           }
           This version of the genetic operator skips the filter loop.
 }

@@ -20,7 +20,7 @@ List of 2 derivation trees.
 \code{xegaGpFilterCross2Gene()} swaps two randomly extracted 
              subtrees between 2 genes. Subtrees must have the same
              root in order to be compatible. The current implementation 
-             performs at most \code{maxtrials} trials to find compatible
+             performs at most \code{lF$MaxTrials()} trials to find compatible
              subtrees. If this fails, the original genes are returned.
              Only nodes with a depth
              between \code{lF$MinMutInsertionDepth()} and

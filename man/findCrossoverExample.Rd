@@ -13,14 +13,15 @@ findCrossoverExample(FUN, s, verbose = TRUE)
 \item{s}{Integer. Seed of random number generator.}
 
 \item{verbose}{Boolean. 
-If \code{TRUE} (default), print example to console.}
+If \code{TRUE} (default), print the example 
+to the console.}
 }
 \value{
 No return.
 }
 \description{
-The purpose of this function is to support the search 
-             for examples for generating unit tests for crossover 
+The function supports the search 
+             for examples for unit tests for crossover 
              functions whose behavior depends on random numbers.
 }
 \examples{

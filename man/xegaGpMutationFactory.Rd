@@ -36,6 +36,7 @@ Mutate(gene1, lFxegaGpGene)
 }
 \seealso{
 Other Configuration: 
-\code{\link{xegaGpCrossoverFactory}()}
+\code{\link{xegaGpCrossoverFactory}()},
+\code{\link{xegaGpInitGeneFactory}()}
 }
 \concept{Configuration}

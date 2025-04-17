@@ -46,6 +46,7 @@ XGeneOne(gene1, gene2, lFxegaGpGene)
 }
 \seealso{
 Other Configuration: 
+\code{\link{xegaGpInitGeneFactory}()},
 \code{\link{xegaGpMutationFactory}()}
 }
 \concept{Configuration}

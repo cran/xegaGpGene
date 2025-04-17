@@ -12,14 +12,14 @@ xegaGpDecodeGene(gene, lF)
 \item{lF}{Local configuration of the genetic algorithm.}
 }
 \value{
-Decoded gene. Program.
+Decoded gene.
 }
 \description{
 \code{xegaGpDecodeGene()} decodes a derivation tree.
 }
 \details{
 The recursive algorithm for the decoder is imported 
-         from package \code{xegaDerivationTrees}.
+         from the package \code{xegaDerivationTrees}.
 }
 \examples{
 gene<-xegaGpInitGene(lFxegaGpGene)

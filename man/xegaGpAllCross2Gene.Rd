@@ -2,7 +2,7 @@
 % Please edit documentation in R/xegaGpCrossover.R
 \name{xegaGpAllCross2Gene}
 \alias{xegaGpAllCross2Gene}
-\title{Crossover of 2 derivation tree genes}
+\title{Crossover of 2 derivation tree genes.}
 \usage{
 xegaGpAllCross2Gene(ng1, ng2, lF)
 }
@@ -20,7 +20,7 @@ List of 2 derivation trees.
 \code{xegaGpAllCross2Gene()} swaps two randomly extracted 
              subtrees between 2 genes. Subtrees must have the same
              root in order to be compatible. The current implementation 
-             performs at most \code{maxtrials} trials to find compatible
+             performs at most \code{lF$MaxTrials()} trials to find compatible
              subtrees. If this fails, the original genes are returned.
 }
 \details{
