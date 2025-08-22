@@ -81,8 +81,8 @@ for (i in 1: lF$MaxTrials())
     newg1<-xegaDerivationTrees::treeInsert(g1, subtree2, n1)
     newg2<-xegaDerivationTrees::treeInsert(g2, subtree1, n2)
 # print("cross over SUCESS.")
-    rg[[1]]<-list(evaluated=FALSE, fit=0, gene1=newg1)
-    rg[[2]]<-list(evaluated=FALSE, fit=0, gene1=newg2)
+    rg[[1]]<-list(evaluated=FALSE, evalFail=FALSE, fit=0, gene1=newg1)
+    rg[[2]]<-list(evaluated=FALSE, evalFail=FALSE, fit=0, gene1=newg2)
     return(rg)}}
 # print("cross over fails. Return genes.")
 rg[[1]]<-ng1
@@ -147,8 +147,8 @@ for (i in 1: lF$MaxTrials())
     newg1<-xegaDerivationTrees::treeInsert(g1, subtree2, n1)
     newg2<-xegaDerivationTrees::treeInsert(g2, subtree1, n2)
 # print("cross over SUCESS.")
-    rg[[1]]<-list(evaluated=FALSE, fit=0, gene1=newg1)
-    rg[[2]]<-list(evaluated=FALSE, fit=0, gene1=newg2)
+    rg[[1]]<-list(evaluated=FALSE, evalFail=FALSE, fit=0, gene1=newg1)
+    rg[[2]]<-list(evaluated=FALSE, evalFail=FALSE, fit=0, gene1=newg2)
     return(rg)}}
 # print("cross over fails. Return genes.")
 rg[[1]]<-ng1
@@ -211,7 +211,7 @@ for (i in 1: lF$MaxTrials())
     subtree2<-xegaDerivationTrees::treeExtract(g2, n2)
     newg1<-xegaDerivationTrees::treeInsert(g1, subtree2, n1)
 # print("cross over SUCESS.")
-    rg[[1]]<-list(evaluated=FALSE, fit=0, gene1=newg1)
+    rg[[1]]<-list(evaluated=FALSE, evalFail=FALSE, fit=0, gene1=newg1)
     return(rg)}}
 # print("cross over fails. Return genes.")
 rg[[1]]<-ng1
@@ -290,7 +290,7 @@ for (i in 1: lF$MaxTrials())
     subtree2<-xegaDerivationTrees::treeExtract(g2, n2)
     newg1<-xegaDerivationTrees::treeInsert(g1, subtree2, n1)
 # print("cross over SUCESS.")
-    rg[[1]]<-list(evaluated=FALSE, fit=0, gene1=newg1)
+    rg[[1]]<-list(evaluated=FALSE, evalFail=FALSE, fit=0, gene1=newg1)
     return(rg)}}
 # print("cross over fails. Return genes.")
 rg[[1]]<-ng1

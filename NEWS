@@ -12,3 +12,9 @@ Version 1.0.0.2 (2025-03-09)
                     a random vector of integers.
 - xegaGpInitGeneFactory()  for selecting  the initialization function.
 
+Version 1.0.0.3 (2025-08-18)
+
+- All crossover and all mutation functions: 
+                     Missing evalFail element in gene list added.  
+                     (Bug fix for genetic operator pipeline compilation).
+ 

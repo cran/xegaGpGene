@@ -1,6 +1,6 @@
 Package: xegaGpGene
 Title: Genetic Operations for Grammar-Based Genetic Programming
-Version: 1.0.0.2
+Version: 1.0.0.3
 Authors@R: 
     person(given = "Andreas",
            family = "Geyer-Schulz",
@@ -24,11 +24,12 @@ URL: https://github.com/ageyerschulz/xegaGpGene
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 Suggests: testthat
-Imports: stats, xegaBNF, xegaDerivationTrees, xegaSelectGene
+Imports: stats, xegaBNF (> 1.0.0.4), xegaDerivationTrees,
+        xegaSelectGene
 NeedsCompilation: no
-Packaged: 2025-04-16 10:07:48 UTC; dj2333
-Author: Andreas Geyer-Schulz [aut, cre]
-    (<https://orcid.org/0009-0000-5237-3579>)
+Packaged: 2025-08-22 08:08:49 UTC; dj2333
+Author: Andreas Geyer-Schulz [aut, cre] (ORCID:
+    <https://orcid.org/0009-0000-5237-3579>)
 Maintainer: Andreas Geyer-Schulz <Andreas.Geyer-Schulz@kit.edu>
 Repository: CRAN
-Date/Publication: 2025-04-17 07:30:02 UTC
+Date/Publication: 2025-08-22 10:10:02 UTC
